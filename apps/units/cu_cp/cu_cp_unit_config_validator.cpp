@@ -413,7 +413,7 @@ static bool validate_qos_appconfig(span<const cu_cp_unit_qos_config> config)
 static bool validate_amf_appconfig(const cu_cp_unit_amf_config& config)
 {
   // only check for non-empty AMF address and default port
-  if (config.ip_addr.empty() or config.port != 38412) {
+  if (config.ip_addr.empty() or config.port != 31412) {
     return false;
   }
   return true;

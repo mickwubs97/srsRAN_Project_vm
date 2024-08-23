@@ -219,9 +219,9 @@ struct cu_cp_unit_metrics_config {
 };
 
 struct cu_cp_unit_amf_config {
-  std::string ip_addr                = "127.0.0.1";
-  uint16_t    port                   = 38412;
-  std::string bind_addr              = "127.0.0.1";
+  std::string ip_addr                = "10.129.3.131";
+  uint16_t    port                   = 31412;
+  std::string bind_addr              = "10.129.3.135";
   std::string n2_bind_addr           = "auto";
   std::string n2_bind_interface      = "auto";
   int         sctp_rto_initial       = 120;

@@ -497,7 +497,7 @@ void srsran::configure_cli11_with_cu_cp_unit_config_schema(CLI::App& app, cu_cp_
 
 static std::vector<std::string> auto_generate_plmns()
 {
-  std::vector<std::string> vec = {"00101"};
+  std::vector<std::string> vec = {"20893"};
   return vec;
 }
 

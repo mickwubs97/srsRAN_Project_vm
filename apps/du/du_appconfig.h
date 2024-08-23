@@ -36,8 +36,10 @@ namespace srs_du {
 struct f1ap_appconfig {
   /// CU-CP F1-C address the DU will connect to.
   std::string cu_cp_address = "127.0.10.1";
+  //std::string cu_cp_address = "10.129.3.1";
   /// DU F1-C bind address.
   std::string bind_address = "127.0.10.2";
+  //std::string bind_address = "10.129.3.135";
 };
 
 struct nru_appconfig {

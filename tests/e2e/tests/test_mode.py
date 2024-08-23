@@ -238,7 +238,7 @@ def _test_ru(
             GNBStartInfo(
                 plmn=PLMN(mcc="001", mnc="01"),
                 ue_definition=UEDefinition(zmq_ip=gnb_def.zmq_ip, zmq_port_array=gnb_def.zmq_port_array[:nof_ant]),
-                fivegc_definition=FiveGCDefinition(amf_ip=gnb_def.zmq_ip, amf_port=38412),
+                fivegc_definition=FiveGCDefinition(amf_ip=gnb_def.zmq_ip, amf_port=31412),
                 start_info=StartInfo(
                     timeout=gnb_startup_timeout,
                     post_commands=("amf --no_core 1",),
